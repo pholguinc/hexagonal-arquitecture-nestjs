@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  ventas-db:
+    container_name: {comtainer_name}
+    image: postgres:16.2
+    restart: always
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: {postgres_user}
+      POSTGRES_PASSWORD: {postgres_password}
+      POSTGRES_DB: {postgres_db}
