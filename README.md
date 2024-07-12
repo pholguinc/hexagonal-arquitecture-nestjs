@@ -42,7 +42,7 @@ $ pnpm install
 
  ![docker](https://i.imgur.com/Wnv1arv.png)
 
- Para levnatar nuestro contenedor junto a las imagenes solo basta con ejecutar el siguiente comando
+ Para levantar nuestro contenedor junto a las imágenes solo basta con ejecutar el siguiente comando:
 
 ```bash
 $ docker compose up -d
